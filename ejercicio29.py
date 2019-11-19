@@ -5,6 +5,11 @@ import matplotlib.pylab as plt
 
 data= np.loadtxt("ejercicio29.dat")
 
+plt.subplot(2,2,1)
+plt.imshow(data, aspect=0.1)
+
+plt.subplot(2,2,1)
+
 plt.plot(data[:,0],data[:,1]  )
 plt.plot(data[:,0],data[:,2]  )
 plt.plot(data[:,0],data[:,3]  )
